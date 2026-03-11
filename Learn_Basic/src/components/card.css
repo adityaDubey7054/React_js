@@ -1,6 +1,6 @@
 body {
   background-color: #f2f2f2;
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -42,4 +42,12 @@ body {
   color: white;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;   /* ✅ This makes cards move to next row */
 }
