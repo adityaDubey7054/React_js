@@ -1,0 +1,13 @@
+import LeftContent from './LeftContent'
+import RightContent from './RightContent'
+
+function Page1Content(props) {
+  return (
+    <div className='py-10 flex items-center gap-10 h-[90vh] px-10 '>
+      <LeftContent />
+      <RightContent users={props.users} />
+    </div>
+  )
+}
+
+export default Page1Content
